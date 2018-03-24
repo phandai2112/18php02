@@ -1,0 +1,15 @@
+body{
+   background: linear-gradient(#fff, yellow);
+   background-repeat: no-repeat;
+   height: 800px;
+}
+.box {
+	width: 60%;
+	margin: auto;
+	height: 600px;
+	border: 2px solid #000;
+	padding: 10px;
+	border-radius: 20px;
+	box-shadow: 1px 0px 5px #000;
+	background: #fff;
+}
