@@ -5,7 +5,7 @@
 	<title>Bài Tập Về Nhà</title>
 	<meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, commodi.">
 	<meta name="keyworks" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, omnis.">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="Shortcut icon" href="images/favicon.ico">
 	<!-- css -->
 	<link rel="stylesheet" href="css/style.css">
@@ -38,13 +38,22 @@
 				</div>
 				<div id="nav">
 					<ul>
-						<li><a href="">Trang Chủ</a></li>
-						<li><a href="">Giới Thiệu</a></li>
-						<li><a href="">Danh Lam</a></li>
-						<li><a href="">Địa Chỉ</a></li>
+						<li><a href="index.html">Trang Chủ</a></li>
+						<li><a href="page/about.html">Giới Thiệu</a></li>
+						<li class="active"><a href="">Danh Lam</a>
+							<ul class="sub-menu">
+								<li><i class="fas fa-angle-double-right"></i><a href="">Cầu Rồng</a></li>
+								<li><i class="fas fa-angle-double-right"></i><a href="">Cầu Trần Thị Lý</a></li>
+								<li><i class="fas fa-angle-double-right"></i><a href="">Cầu Quay</a></li>
+								<li><i class="fas fa-angle-double-right"></i><a href="">Cầu Dây Võ Thuận Phước</a></li>
+							</ul>
+						</li>
+						<li><a href="page/contact.html">Liên Hệ</a></li>
 					</ul>
+					<button class="mini-menu"><i class="fas fa-align-left"></i></button>
 				</div>
 			</div>	
+
 			<!-- end-main-top -->
 			<div class="slider">
 				<img src="images/banner.jpg" alt="">
@@ -114,31 +123,34 @@
 						<img src="images/images_1.jpg" alt="">
 					</div>
 					<div class="news-list">
-					<ul>
-						<li><i class="fas fa-angle-double-right"></i>Lorem ipsum dolor sit amet, consectetur  asperiores?</li>
-						<li><i class="fas fa-angle-double-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, asperiores?</li>
-						<li><i class="fas fa-angle-double-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, tur adipisicing elit. Consequatur, aspeasperiores?</li>
-						<li><i class="fas fa-angle-double-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, asperiores?</li>
-						<li><i class="fas fa-angle-double-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, asperiores?</li>
-					</ul>
-				</div>
+						<ul>
+							<li><i class="fas fa-angle-double-right"></i>Lorem ipsum dolor sit amet, consectetur  asperiores?</li>
+							<li><i class="fas fa-angle-double-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, asperiores?</li>
+							<li><i class="fas fa-angle-double-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, tur adipisicing elit. Consequatur, aspeasperiores?</li>
+							<li><i class="fas fa-angle-double-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, asperiores?</li>
+							<li><i class="fas fa-angle-double-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, asperiores?</li>
+						</ul>
+					</div>
 				</div>
 
 			</div>
-			<div id="footer">
-				<div class="footer-title">
-					<div class="logo">
-						<img src="images/logo.png" alt="">
-					</div>
-					<h4>Gioi Thieu Da Nang</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At eius quas assumenda hic sapiente vitae temporibus dignissimos quod, quis earum accusamus natus officia aliquam fugiat accusantium aliquid distinctio autem fugit.</p>
+
+		</div>
+		<div id="footer">
+			<div class="footer-title">
+				<div class="logo">
+					<img src="images/logo.png" alt="">
 				</div>
-				<div class="footer-contact">
-					<ul>
-						<li>Dia chi : quan lien chieu- tp da nag</li>
-						<li>Hotline : 0948.468.885</li>
-					</ul>
-				</div>
+				<h4>Gioi Thieu Da Nang</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At eius quas assumenda hic sapiente vitae temporibus dignissimos quod, quis earum accusamus natus officia aliquam fugiat accusantium aliquid distinctio autem fugit.</p>
+			</div>
+			<div class="footer-contact">
+				<h4>Thông Tin Liên Hệ</h4>
+				<ul>
+					<li><i class="fas fa-arrow-alt-circle-right"></i> Dia chi : quan lien chieu- tp da nag</li>
+					<li><i class="fas fa-arrow-alt-circle-right"></i> Hotline : 0948.468.885</li>
+					<li><i class="fas fa-arrow-alt-circle-right"></i> Email : phandai2112@gmail.com</li>
+				</ul>
 			</div>
 		</div>
 		<!-- end-wrap -->
