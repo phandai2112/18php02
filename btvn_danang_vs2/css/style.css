@@ -291,3 +291,7 @@ body{
 	border-bottom: 21px solid transparent;
 	border-right: 11px solid #ffc107;
 }
+.title-box i{
+	padding-right:6px;
+	color:#222;
+}

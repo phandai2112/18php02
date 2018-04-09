@@ -1,0 +1,57 @@
+*{
+	padding: 0px;
+}
+body{
+	width: 1000px;
+	margin: auto;
+}
+.road{
+	height: 300px;
+	background: #000;
+	margin: auto;
+	width: 100%;
+	position: relative;
+
+}
+
+.car img,
+.fire img,
+.local img{
+	width: 100%;
+}
+.car{
+	top: 10px;
+	position: absolute;
+	right: 0px;
+	animation-duration: 4s;
+	animation-name: driver;
+
+}
+@keyframes driver{
+	0% {right: 0px
+	}
+	100% {
+		right:680px;
+
+	}
+	
+}
+@keyframes fire{
+	from{
+	opacity: 0}
+	to{
+	opacity: 1}
+}
+
+.local,
+.fire{
+	top: 90px;
+	position: absolute;
+	left:30px;
+	width: 80px;
+}
+.fire{
+	opacity: 1;
+	animation-duration:6s;
+	animation-name: fire;
+}
