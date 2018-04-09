@@ -24,17 +24,16 @@ body{
 	position: absolute;
 	right: 0px;
 	animation-duration: 4s;
-	animation-name: driver;
+	animation-name: driver
+
 
 }
 @keyframes driver{
 	0% {right: 0px
 	}
 	100% {
-		right:680px;
-
-	}
-	
+		right:720px
+	}	
 }
 @keyframes fire{
 	from{
@@ -42,6 +41,7 @@ body{
 	to{
 	opacity: 1}
 }
+
 
 .local,
 .fire{
@@ -51,7 +51,7 @@ body{
 	width: 80px;
 }
 .fire{
-	opacity: 1;
-	animation-duration:6s;
+	opacity: 0;
+	animation-duration:12s;
 	animation-name: fire;
 }
