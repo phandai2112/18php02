@@ -9,7 +9,7 @@ document.write("<h3> Bài Tập Số 1 <h3>" + "- Họ và Tên : " + userName +
 for (var i = 0; i<=100; i++) {
 	if (i%15 == 0) {
 		document.write("Số chia hết cho Mười Lăm là " + i +"<br>");
-	}else if(i%5 == 0 && i%3 !== 0 && i%15 !== 0) {
+	}else if(i%5 == 0 ) {
 		document.write("Số chia hết cho Năm là " + i +"<br>");
 	}else if(i%3 == 0){
 		document.write("Số chia hết cho Ba là " + i +"<br>");
