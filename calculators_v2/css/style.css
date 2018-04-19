@@ -1,0 +1,73 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+h3{
+	display: block;
+	padding: 10px;
+	font-size: 21px;
+	text-align: center;
+	text-transform:  uppercase;
+	font-weight:  bold;
+	color: #ff0303;
+}
+label{
+	
+	font-size: 18px;	
+	padding: 5px 0px;	
+	display: block;	
+	font-weight:  bold;
+}
+.container{
+	width: 1024px;
+	margin: auto;
+}
+
+.box-mode{
+	width: 50%;
+	margin: auto;
+	padding:  30px;
+	border:  1px solid #eee;
+	border-radius:  5px;
+	margin-top: 30px;
+	background: #FFC107;
+}
+
+#box-result input[type ='text']{
+	height: 41px;
+	width: 100%;
+	border-radius: 5px;
+	color: #424242;
+	font-size: 32px;
+	text-align:  right;
+	font-weight:  bold;
+}
+
+.group-cal{
+	width: 100%;
+}
+
+.box-result input[type = "text"]{
+	font-size: 23px;
+}
+
+.number2 input[type = "text"],
+.cal input[type = "text"],
+.number1 input[type = "text"]{
+	display: block;
+	height: 30px;
+	font-size: 20px;
+	margin-right: 5px;
+	width: 100%;
+}
+
+.number1 label,
+.number2 label{
+	text-transform: uppercase;
+	color: #0008f9;
+	font-size: 15px;
+}
+.cal small{
+	color: #383838;
+	font-size: 13px;
+}

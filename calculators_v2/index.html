@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Máy Tính 2</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<div class="container">
+		
+		<div class="box-mode">
+			<div id="box-result">
+				<input id="result" type="text" value="" >
+
+			</div>
+			
+			<div class="group-cal">
+
+				<h3>Thực Hiện Các Phép Tính</h3>
+				<div class="number1">
+					<label >Số Thứ Nhất :</label>
+					<input id="NumberOne" onchange="getValue()"  type="text" value="">
+				</div>
+
+				<div class="cal">
+					<label >Phép Tính :<small>  Công : "+" - Nhân : "*" - Chia : "/" - Chia lấy Dư : "%"</small></label>
+					
+					<input id="cal" onchange="getValue()"  type="text" value="">
+				</div>
+
+				<div class="number2">
+					<label >Số Thứ 2 :</label>
+					<input id="NumberTwo" onchange="getValue()" type="text" value="">
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+	<!-- Javascipt -->
+	<script src="js/main.js"></script>
+</body>
+</html>
