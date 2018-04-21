@@ -1,0 +1,57 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700');
+.container{
+	width: 960px;
+	margin: auto;
+}
+.box-info{
+	width: 640px;
+	height: 450px;
+	margin: 20px auto;
+	background: #EEB;
+	border-radius:  8px;
+	/* margin:  10px; */
+}
+.box-info h3{
+	text-align: center;
+	padding: 10px 0px;
+	text-transform: uppercase;
+	border-bottom:  1px solid #fff;
+	margin-bottom: 5px;
+}
+.box-images,
+.box-input{
+	width: 46%;
+	float: left;
+	padding: 1.5%;
+	margin-right: 5px;
+}
+.box-images img{
+	width: 100%;
+	padding-right: 0px;
+}
+.form-group label{
+	display: block;
+	padding: 5px 0px;
+	font-weight: bold;
+}
+.form-group input[type = "text"] {
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid #eee;
+	height: 30px;
+	font-size:  20px;
+	color: #1f1f1f;
+	font-weight:  bold;
+}
+.boxname {
+	padding: 5px 10px;
+	border: 1px dashed #8BC34A;
+	text-align: center;
+	background: #fff;
+	font-size: 28px;
+}
