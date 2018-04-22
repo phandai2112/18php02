@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded",function(){
 	var yearBirth = document.getElementById("yearBirth");
 	var imagesAvatar = document.getElementById("imagesAvatar");
 
-// Hàm kiểm tra điều kiện ngày sinh
+//kiểm tra điều kiện ngày sinh
 
 yearBirth.onchange = function(){
 	console.log(yearBirth.value);
@@ -24,7 +24,7 @@ yearBirth.onchange = function(){
 	}
 }
 
-// Hàm kiểm tra điều kiện chọn ảnh giới tính
+// kiểm tra điều kiện chọn ảnh giới tính
 imagesSex[0].onclick = function(){
 	imagesAvatar.src = "../session10/images/male.jpg";
 	userName.style = "color:#f44336"
