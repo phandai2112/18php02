@@ -12,7 +12,6 @@ ul li{
 	margin: auto;
 }
 .card{
-	display: none;
 	width: 23%;
 	padding: 0.3%;
 	float: left;
@@ -40,6 +39,17 @@ ul li{
 	border-bottom: 1px solid #eee;
 	color: #ffc107;
 
+}
+.card p{
+	display: block;
+	padding:  5px;
+	text-align:  center;
+	background: #FF5722;
+	color:  #fff;
+	margin-bottom: 5px;
+}
+.main-card{
+	display: none;
 }
 .active{
 	display: inline;
