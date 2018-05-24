@@ -52,6 +52,8 @@
 				echo "<h3>Thầy đã đăng nhập được rồi ! </h3>";
 				echo "Tên của thầy :".$strReplace[0];
 				echo "Số điện thoại  :".$strReplace[3];
+			} else {
+				echo "<h3>Đăng Nhập sai rồi !!!  </h3>";
 			}
 		}
 
